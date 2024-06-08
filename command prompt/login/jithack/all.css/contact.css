@@ -1,0 +1,159 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navitems1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navitem1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navitem1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mk {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.k {
+    color: #333;
+}
+
+.po {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.aa {
+    font-weight: bold;
+}
+
+.bb {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.c,
+.v {
+    list-style-type: none;
+}
+
+.cv {
+    margin-bottom: 10px;
+}
+
+.socialmedia a {
+    color: #333;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.pp {
+    text-align: center;
+}
+
+/* Additional Styles */
+#name-container,
+#other-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.new {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-list,
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.info-item {
+    font-weight: bold;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.contact-list {
+    flex: 1;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #555;
+}

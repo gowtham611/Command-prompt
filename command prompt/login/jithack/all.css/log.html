@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptitude Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+        }
+        .submit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e2e2e2;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="aptitudeTestForm">
+            <h1>Aptitude Test</h1>
+            <div class="question">
+                <h3>Question 01:Arrange the words given below in a meaningful sequence.
+
+                    1.Presentation  2.Recommendation  3. Arrival  4.Discussion  5.Introduction?</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q1" value="a"> 3, 5, 4, 2, 1</label></li>
+                    <li><label><input type="radio" name="q1" value="b"> 5, 3, 4, 1, 2</label></li>
+                    <li><label><input type="radio" name="q1" value="c"> 3, 5, 1, 4, 2</label></li>
+                    <li><label><input type="radio" name="q1" value="d"> 5, 3, 1, 2, 4</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 02: Two cities X and Y are 45 km apart. Two cars start from X and Y in the same direction with speeds of 30 km/hr and 15 km/hr, respectively. Both cars meet at point Z beyond Y. Find the distance ZY.</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q2" value="a"> 50 km</label></li>
+                    <li><label><input type="radio" name="q2" value="b"> 40 km</label></li>
+                    <li><label><input type="radio" name="q2" value="c"> 45 km</label></li>
+                    <li><label><input type="radio" name="q2" value="d"> 65 km</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 03: Person A can complete a task in 4 hours. When persons B and C work together, they can finish the task in 3 hours, and when persons A and C work together, they can complete it in 2 hours. What is the time it takes for person B alone to complete the task?</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q3" value="b"> 11 hours</label></li>
+                    <li><label><input type="radio" name="q3" value="a"> 12 hours</label></li>
+                    <li><label><input type="radio" name="q3" value="c"> 14 hours</label></li>
+                    <li><label><input type="radio" name="q3" value="d"> 16 hours</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 04: A financier borrows funds at an annual interest rate of 5%, settling the interest at the close of the year. Subsequently, the financier extends loans at an 8% per annum compound interest rate, compounded semi-annually, and receives the accumulated interest at the conclusion of the year. Through this strategy, the financier achieves a gain of Rs 120.08 annually. The amount of money he borrows:</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q4" value="b"> 3600</label></li>
+                    <li><label><input type="radio" name="q4" value="a"> 3700</label></li>
+                    <li><label><input type="radio" name="q4" value="c"> 3800</label></li>
+                    <li><label><input type="radio" name="q4" value="d"> 3300</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 05: What is the total number of possible motor vehicle registration plates for Haryana, each following the format (HR 12Q 8702), where the digits 0 to 6 are used without repetition, and a consonant is placed at the alphabetical position?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q5" value="b"> 95780</label></li>
+                    <li><label><input type="radio" name="q5" value="a"> 96687</label></li>
+                    <li><label><input type="radio" name="q5" value="c"> 95760</label></li>
+                    <li><label><input type="radio" name="q5" value="d"> 99867</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 06: How many different arrangements are possible for the letters in the word ‘LEADER’?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q6" value="b"> 280</label></li>
+                    <li><label><input type="radio" name="q6" value="a"> 360</label></li>
+                    <li><label><input type="radio" name="q6" value="c"> 340</label></li>
+                    <li><label><input type="radio" name="q6" value="d"> 400</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 07: If a pen is randomly drawn and replaced from a bag containing pens numbered 1 to 17, and this process is repeated, what is the probability that the first drawn pen has an even number, and the second drawn pen has an odd number?</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q7" value="b"> 72/289</label></li>
+                    <li><label><input type="radio" name="q7" value="a"> 72/299</label></li>
+                    <li><label><input type="radio" name="q7" value="c"> 67/299</label></li>
+                    <li><label><input type="radio" name="q7" value="d"> 67/289</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 08: The current ages of Sameer and Anand are in the ratio 5:4. In three years, this ratio is expected to change to 11:9. What is Anand’s current age?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q8" value="b"> 24</label></li>
+                    <li><label><input type="radio" name="q8" value="a"> 12</label></li>
+                    <li><label><input type="radio" name="q8" value="c"> 18</label></li>
+                    <li><label><input type="radio" name="q8" value="d"> 26</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 09: The most appropriate synonym for ‘benevolent’.</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9" value="b"> sad</label></li>
+                    <li><label><input type="radio" name="q9" value="a"> Happy</label></li>
+                    <li><label><input type="radio" name="q9" value="c"> Honest</label></li>
+                    <li><label><input type="radio" name="q9" value="d"> Generous</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 10:Find a synonym for ‘ephemeral.’</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q10" value="b"> Phorous</label></li>
+                    <li><label><input type="radio" name="q10" value="a"> Translucent</label></li>
+                    <li><label><input type="radio" name="q10" value="c"> Transient</label></li>
+                    <li><label><input type="radio" name="q10" value="d"> Eternal</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 11: What is the opposite of ‘expand’?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q11" value="b"> Sizedown</label></li>
+                    <li><label><input type="radio" name="q11" value="a"> Contract</label></li>
+                    <li><label><input type="radio" name="q11" value="c"> Close</label></li>
+                    <li><label><input type="radio" name="q11" value="d"> Shut</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 12: Guess the word that best fits in the blank: The __________ of the novel left readers in suspense.</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q12" value="b"> end </label></li>
+                    <li><label><input type="radio" name="q12" value="a"> plot</label></li>
+                    <li><label><input type="radio" name="q12" value="c"> start</label></li>
+                    <li><label><input type="radio" name="q12" value="d"> beginning</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 13: Guess the correct word: The chef used a pinch of __________ to enhance the flavor of the dish.</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q13" value="b"> Salt</label></li>
+                    <li><label><input type="radio" name="q13" value="a"> Bell Pepper</label></li>
+                    <li><label><input type="radio" name="q13" value="c"> Flour</label></li>
+                    <li><label><input type="radio" name="q13" value="d"> Tamarind juice</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 14: Identify the correct spelling:</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q14" value="b"> Occurrence</label></li>
+                    <li><label><input type="radio" name="q14" value="a"> Ocurance</label></li>
+                    <li><label><input type="radio" name="q14" value="c"> Occurance</label></li>
+                    <li><label><input type="radio" name="q14" value="d"> Occurence</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 15: Find the number which will come in the place of the question mark in the given series 14, 25, 47, 91, 179, ?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q15" value="b"> 335</label></li>
+                    <li><label><input type="radio" name="q15" value="a"> 345</label></li>
+                    <li><label><input type="radio" name="q15" value="c"> 355</label></li>
+                    <li><label><input type="radio" name="q15" value="d"> 365</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 16: Find the number which would come in place of question mark  3, 3, 4.5, 9, ?.</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q16" value="b"> 20</label></li>
+                    <li><label><input type="radio" name="q16" value="a"> 24.5</label></li>
+                    <li><label><input type="radio" name="q16" value="c"> 26</label></li>
+                    <li><label><input type="radio" name="q16" value="d"> 22.5</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 17: Which of the following element is 17th to the right of the one which is 24th from the right end of the given arrangement? </h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q17" value="b"> I </label></li>
+                    <li><label><input type="radio" name="q17" value="a"> T </label></li>
+                    <li><label><input type="radio" name="q17" value="c"> # </label></li>
+                    <li><label><input type="radio" name="q17" value="d"> J </label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 18: ‘Algebra’ is related to ‘Maths’ in the same way as ‘Optics’ is related to ______’</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q18" value="b"> Physics</label></li>
+                    <li><label><input type="radio" name="q18" value="a"> Chemistry</label></li>
+                    <li><label><input type="radio" name="q18" value="c"> Biology</label></li>
+                    <li><label><input type="radio" name="q18" value="d"> General Science</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 19: The schools football team is facing off against the rival team in the championship game. The coach wants to motivate the players and has promised to take them to a celebratory dinner at a local restaurant. Which restaurant should the coach choose?</h3>
+                <ul class="options">
+                    <li><label><input type="radio" name="q19" value="b"> A burger joint with an all-you-can-eat buffet and a milkshake bar. </label></li>
+                    <li><label><input type="radio" name="q19" value="a"> A fancy French restaurant with a dress code and a wine list. </label></li>
+                    <li><label><input type="radio" name="q19" value="c"> An Italian pizzeria with a casual atmosphere and a wood-fired oven. </label></li>
+                    <li><label><input type="radio" name="q19" value="d"> A seafood restaurant with a sushi bar and a lobster tank.</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h3>Question 20: The school is organizing a talent show, and the students are encouraged to showcase their talents. Which of the following would be appropriate for the talent show?</h3>
+                <ul class="options"> 
+                    <li><label><input type="radio" name="q20" value="b"> A student performing a stand-up comedy routine. </label></li>
+                    <li><label><input type="radio" name="q20" value="a"> A student playing a musical instrument. </label></li>
+                    <li><label><input type="radio" name="q20" value="c"> A student demonstrating a magic trick.</label></li>
+                    <li><label><input type="radio" name="q20" value="d">A student giving a speech on a political topic.</label></li>
+                </ul>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.getElementById('aptitudeTestForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const correctAnswers = {
+                q1: 'c',
+                q2: 'c',
+                q3: 'b',
+                q4: 'b',
+                q5: 'c',
+                q6: 'a',
+                q7: 'b',
+                q8: 'b',
+                q9: 'd',
+                q10: 'c',
+                q11: 'a',
+                q12: 'a',
+                q13: 'b',
+                q14: 'd',
+                q15: 'c',
+                q16: 'd',
+                q17: 'b',
+                q18: 'a',
+                q19: 'c',
+                q20: 'a',
+            };
+            let score = 0;
+            let totalQuestions = Object.keys(correctAnswers).length;
+
+            for (const [question, answer] of Object.entries(correctAnswers)) {
+                const selected = document.querySelector(`input[name="${question}"]:checked`);
+                if (selected && selected.value === answer) {
+                    score++;
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = `You scored${score} out of ${totalQuestions}`;
+        });
+    </script>
+</body>
+</html>

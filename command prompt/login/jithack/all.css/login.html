@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Placement Companion</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>PlacementPioneer</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="contact1.html">Register</a>
+        <button id="signupBtn" onclick="openSignupModal()">Login<span class="popup-text">Click to Sign Up</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="typewriter-text">Land Your Dream Job with Confidence</h2>
+        <p>Our personalized platform equips you with the tools and support you need to stand out from the competition.</p>
+        <a href="html2.html"><button class="button">Get Started Today</button></a>
+      </div>
+      <img src="https://seofiles.s3.amazonaws.com/seo/media/uploads/2018/08/10/placement-officer-or-placement-cell.jpg" alt="Person celebrating a job offer">
+    </section>
+
+    <!-- Flex container for services, why us, and study materials -->
+    <div class="flex-container">
+      <div class="services-container">
+        <section class="services">
+          <h2>Our Services</h2>
+          <ul>
+            <li>Resume & Cover Letter Writing</li>
+            <li>Mock Interviews & Interview Coaching</li>
+            <li>Job Search Strategy & Networking Tips</li>
+            <li>Personalized Career Guidance</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="why-us-container">
+        <section class="why-us">
+          <h2>Why Choose Us?</h2>
+          <!--<p>We understand the challenges of the job market and are dedicated to helping you succeed. Here's why we're different:</p>-->
+          <ul>
+            <li>Experienced career coaches</li>
+            <li>Data-driven strategies for success</li>
+            <li>Affordable and flexible plans</li>
+            <li>Proven track record of success stories</li>
+          </ul>
+        </section>
+      </div>
+      
+      <div class="study-material-container">
+        <section class="study-material">
+          <h2>Study Materials</h2>
+          <ul>
+            <li>Well-researched & analyzed</li>
+            <li>Data-driven strategies for success</li>
+            <li>Comprehensive & meticulously designed</li>
+            <li>Based on latest syllabus & exam pattern</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <section class="cta">
+      <button id="signupBtn" onclick="openSignupModal()">Sign Up Now!<span class="popup-text">Click to Sign Up</span></button>
+    </section>
+
+    <div id="signupModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeSignupModal()">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <div class="container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="container">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeLoginModal()">&times;</span>
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username"><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password"><br><br>
+          <input type="submit" value="Login">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

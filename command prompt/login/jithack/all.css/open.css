@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6f5;
+    margin: 0 15px;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.head {
+    color: #4BC0F7;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.head2 {
+    color: black;
+    font-size: 19px;
+}
+
+.box {
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Changed from #0c0b14 to white */
+    color: black; /* Changed from white to black */
+    border-radius: 10px;
+    max-width: 800px;
+    border: 1px solid #ddd; /* Optional: add border for better visual separation */
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333; /* Set heading color */
+}
+
+h1::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: #333; /* Set blinking cursor color */
+    background-color: #ffffff; /* Match with the background */
+    animation: blink 1s infinite;
+}
+
+p {
+    color: #555; /* Set paragraph text color */
+}
+
+@keyframes blink {
+    40% {
+        color: transparent;
+    }
+}
+
+button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px; /* Added border-radius */
+}
+
+button:hover {
+    opacity: 1;
+}

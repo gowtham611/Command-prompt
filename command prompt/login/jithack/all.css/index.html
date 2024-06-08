@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./all.css/style.css">
+    <script src="https://kit.fontawesome.com/9190676472.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Preparation</title>
+    <style>
+        .navbar {
+            position: fixed; /* Make the navbar fixed */
+            width: 100%; /* Set the width to 100% */
+            top: 0; /* Align the navbar to the top */
+            background-color: rgba(0, 0, 0, 0.8); /* Add background color with some transparency */
+            z-index: 1000; /* Ensure the navbar is above other elements */
+            height: 150px; /* Adjust the height of the navigation bar */
+        }
+
+        .navbar::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .header-text {
+            color: #333;
+            text-align: center;
+        }
+
+        .header {
+            padding-top: 60px; /* Add padding top to the header to prevent content from being overlapped by the fixed navbar */
+        }
+
+        .navitems {
+            display: flex;
+            align-items: center; /* Align items vertically in the center */
+        }
+
+        .navitem {
+            margin-left: 20px; /* Add some spacing between nav items */
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">#PLACED</h1>
+            <ul class="navitems">
+                <li class="navitem"><a href="./index.html" class="btn btn1">Home</a></li>
+                <li class="navitem"><a href="./all.css/html2.html" class="btn btn1">Study Materials</a></li>
+                <li class="navitem"><a href="./all.css/contact1.html" class="btn btn1">Contact Us</a></li>
+            </ul>
+        </div>  
+    </nav>
+    <div class="hcontent">
+        <h1 class="header-text">Going Toward Placed</h1>
+        <p class="header-text">Success doesn’t come to you. You go to it.</p>
+        <a href="#lets" class="btn btn1">Lets Go</a>
+    </div>
+</header>
+  <section class="showcase" id="lets">
+    <div class="container">
+        <div class="row row1">
+            <div class="imgbox">
+                <img src="./new img/mncplacing.jpg"alt="">
+            </div>
+            <div class="textbox">
+                <h1>Way to getting Placed</h1>
+                <div class="demo">
+                    <ul class="clang">
+                        <li ><a href="./all.css/html2.html" >C</a></li>
+                        <li ><a href="./all.css/html2.html">C++</a></li>
+                        <li ><a href="./all.css/html2.html">Python</a></li>
+                        <li ><a href="./all.css/html2.html">Java</a></li>
+                        <li ><a href="./all.css/html2.html">Web Development</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" row row2">
+            <div class="imgbox" >
+                <img src="./new img/interviewprep.jpg" alt="">
+            </div>
+            <div class="textbox">
+                <h1>Interview Preparation </h1>
+                <div class="demo">
+                    <ul class="ilang">
+                        <li ><a href="./all.css/html2.html">Tech Round</a></li>
+                        <li ><a href="./all.css/html2.html">HR Round</a></li>
+                        <li ><a href="./all.css/html2.html">Coding Questions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/profile.php?id=100008634811032"><i class="fab fa-facebook fa-4x"></i></a>
+        <a href="https://www.instagram.com/paresh_3432/"><i class="fab fa-instagram fa-4x"></i></a>
+        <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter fa-4x"></i></a>
+      </div>
+      <p class="pp">#Placed &copy; 2021</p>
+    </footer>
+</body>
+</html>

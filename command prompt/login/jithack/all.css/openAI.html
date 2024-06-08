@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Pioneer</title>
+    <link rel="stylesheet" href="open.css">
+    <script src="open.js" defer></script>
+</head>
+<body>
+    <center>
+        <h2 class="head">PlacementPioneer</h2>
+        <h2 class="head2">Fill in your details below</h2>
+    </center>
+
+    <div class="box">
+        <form id="resume-form">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email Id:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="university">University Name:</label><br>
+            <input type="text" id="university" name="university" required><br><br>
+
+            <label for="skill">Primary Skill:</label><br>
+            <select id="skill" name="skill" required>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Python and Java">Python and Java</option>
+                <option value="None">None</option>
+            </select><br><br>
+
+            <label for="additional-skill">Additional Skill:</label><br>
+            <select id="additional-skill" name="additional-skill" required>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="C and C++">C and C++</option>
+                <option value="None">None</option>
+            </select><br><br>
+
+            <label for="work">Work Type:</label><br>
+            <select id="work" name="work" required>
+                <option value="Freelancing">Freelancing</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Freelancing and Web Development">Freelancing and Web Development</option>
+                <option value="None">None</option>
+            </select><br><br>
+
+            <button type="submit" class="button">Generate Resume</button>
+        </form>
+    </div>
+
+    <div class="box" id="resume"></div>
+</body>
+</html>
